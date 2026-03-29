@@ -59,9 +59,9 @@ if choice == "BOM 比對並轉換 TXT":
     # 1. 檔案上傳
     col1, col2 = st.columns(2)
     with col1:
-        u1 = st.file_uploader("上傳 Excel 1 (PNRF List)", type=["xlsx"])
+        u1 = st.file_uploader("上傳 Excel 1 (PNRF List) A=CPN, B=MPN, C=IEC PN", type=["xlsx"])
     with col2:
-        u2 = st.file_uploader("上傳 Excel 2 (客戶BOM)", type=["xlsx"])
+        u2 = st.file_uploader("上傳 Excel 2 (客戶BOM), A=CPN, B=MPN, C=Location", type=["xlsx"])
 
     pcba_pn = st.text_input("請輸入 PCBA 板號 (將顯示在第一列):", placeholder="例如: PCBA-12345").strip().upper()
 
