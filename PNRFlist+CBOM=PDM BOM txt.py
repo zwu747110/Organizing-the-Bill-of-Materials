@@ -53,7 +53,7 @@ def sort_locations(loc_str):
 
 # --- 主程式介面 ---
 if choice == "BOM 比對並轉換 TXT":
-    st.title("📂 BOM 比對與 TXT 自動生成工具")
+    st.title("📂 上傳PNRF list+ Customer BOM =PDM BOM TXT")
     st.info("此工具將執行：1. 比對 PNRF 與 客戶BOM -> 2. 自動展開 Location -> 3. 匯出排序後的 TXT 檔")
 
     # 1. 檔案上傳
